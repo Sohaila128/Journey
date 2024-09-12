@@ -165,7 +165,7 @@ function MainFooter() {
       <div class="row d-flex align-items-center">
         <div class="col-lg-12 mt-3">
           <span class="fs-6 text-white">@copyright.all right deserved</span>
-          <p class="fs-7 text-white mt-3">Powered by <a href="https://emcan-group.com/en" class="text-decoration-none text-white" target="_blank">Emcan</a> </p>
+          <p class="fs-7 text-white mt-3">Powered by <a href="https://www.linkedin.com/in/sohaila-abo-el-wafa-a2b417248/" class="text-decoration-none text-white" target="_blank">Sohaila Abo El-Wafa</a> </p>
         </div>
       </div>
     </div>

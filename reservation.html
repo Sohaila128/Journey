@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Files -->
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- bootstrap-icon css file -->
+    <link rel="stylesheet" href="Assets/bootstrap-icon/bootstrap-icons.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animation library css file -->
+    <link rel="stylesheet" href="Assets/aos/aos.css">
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- calender File -->
+    <link rel="stylesheet" href="css/calendar-gc.css" />
+    <!-- input cdn  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+    <!-- include Navbar , Footer and Sidebar -->
+    <script src="js/renderPageLayout.js"></script>
+    <!-- favicon -->
+    <link rel="icon" href="images/logo.png">
+
+    <title> Journey Home Website</title>
+  </head>
+  <body>
+
+<!-- Start Navbar  -->
+    <script>
+      MainNavigation();
+  </script>
+<!-- End Navbar  -->
+    
+
+<section class="py-6 border-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 d-flex flex-column mb-3">
+        <form id="reservation-form" class="mt-3">
+          <div id="reservation-1">
+            <!-- reservation 1 content -->
+            <div class="d-flex justify-content-between mb-5">
+              <a href="#" class="text-decoration-none" onclick="showreservation(1)">
+                <div class="link-primary text-primary">
+                  <i class="bi bi-arrow-left"></i>
+                  <span>Back</span>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none" onclick="showreservation(2)">
+                <div class="link-primary text-primary">
+                  <span>Next</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+
+            <!-- start services  -->
+            <h3 class="text-secondary">Services</h3>
+            <!-- start row  -->
+            <div class="row mt-5">
+              <div class="col-lg-4 mb-3 col-10 mx-auto mx-md-0  col-md-6">
+                  <a href="services-details-two.html" class="text-decoration-none">
+                  <div class="card border-0 h-100">
+                  <div class="d-flex img-wrapper">             
+                     <img src="./images/Frame 144.png" class="card-img-top rounded-0 object-fit-cover" alt="...">
+                       <button class="btn-on-image btn btn-info py-0 px-2 position-absolute" style="top: 10px;
+                    right: 10px;"> 20 min </button>
+                    </div>
+                    <div class="card-body">
+                      <h6 class="text-secondary m-0 p-0"> One on One </h6>
+                      <h5 class="text-secondary"> Free consultation</h5>
+                      <p class="card-text text-secondary fs-7">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq   </p>
+                      <div class="d-flex align-items-center">
+                    <i class="bi bi-clock text-dark"></i>
+                    <span class="mx-2 text-dark">Sun-wed</span>
+                  </div>
+                      <h5 class="card-title text-secondary"> Free </h5>
+                      <a href="checkout.html" class="btn btn-outline-primary rounded-3 px-3 py-2">Join now</a>
+                    </div>
+                  </div>
+                </a>
+                </div>
+              <div class="col-lg-4 mb-3 col-10 mx-auto mx-md-0 col-md-6">
+                  <a href="services-details-two.html" class="text-decoration-none">
+                  <div class="card border-0 h-100">
+                  <div class="d-flex img-wrapper">             
+                     <img src="./images/Frame 144.png" class="card-img-top rounded-0 object-fit-cover" alt="...">
+                       <button class="btn-on-image btn btn-info py-0 px-2 position-absolute" style="top: 10px;
+                    right: 10px;"> 20 min </button>
+                    </div>
+                    <div class="card-body">
+                      <h6 class="text-secondary m-0 p-0"> One on One </h6>
+                      <h5 class="text-secondary"> Free consultation</h5>
+                      <p class="card-text text-secondary fs-7">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq   </p>
+                      <div class="d-flex align-items-center">
+                    <i class="bi bi-clock text-dark"></i>
+                    <span class="mx-2 text-dark">Sun-wed</span>
+                  </div>
+                      <h5 class="card-title text-secondary"> Free </h5>
+                      <a href="checkout.html" class="btn btn-outline-primary rounded-3 px-3 py-2">Join now</a>
+                    </div>
+                  </div>
+                </a>
+                </div>
+              <div class="col-lg-4 mb-3 col-10 mx-auto mx-md-0  col-md-6">
+                  <a href="services-details.html" class="text-decoration-none">
+                  <div class="card border-0 h-100">
+                  <div class="d-flex img-wrapper">             
+                     <img src="./images/Frame 144.png" class="card-img-top rounded-0 object-fit-cover" alt="...">
+                       <button class="btn-on-image btn btn-info py-0 px-2 position-absolute" style="top: 10px;
+                    right: 10px;"> 20 min </button>
+                    </div>
+                    <div class="card-body">
+                      <h6 class="text-secondary m-0 p-0"> One on One </h6>
+                      <h5 class="text-secondary"> Second session onwards</h5>
+                      <p class="card-text text-secondary fs-7">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq   </p>
+                      <div class="d-flex align-items-center">
+                    <i class="bi bi-clock text-dark"></i>
+                    <span class="mx-2 text-dark">Sun-wed</span>
+                  </div>
+                      <h5 class="card-title text-secondary"> 80 BHD </h5>
+                      <a href="checkout.html" class="btn btn-outline-primary rounded-3 px-3 py-2">Join now</a>
+                    </div>
+                  </div>
+                </a>
+                </div>
+              
+            </div>
+            <!-- end services  -->
+
+          </div>
+          <div id="reservation-2" style="display: none;">
+            <!-- reservation 2 content -->
+            <div class="d-flex justify-content-between mb-5">
+              <a href="#" class="text-decoration-none" onclick="showreservation(1)">
+                <div class="link-primary text-primary">
+                  <i class="bi bi-arrow-left"></i>
+                  <span>Back</span>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none" onclick="showreservation(3)">
+                <div class="link-primary text-primary">
+                  <span>Next</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+            <!-- start calender -->
+            <div class="row mt-4">
+              <!-- First Card  -->
+              <div class="col-md-12">
+                <div id="calendar" class="text-center" style="padding: 1rem;"></div>
+              </div>
+            </div>
+            <!-- end calender -->
+          </div>
+          <div id="reservation-3" style="display: none;">
+            <!-- reservation 3 content -->
+            <div class="d-flex justify-content-between mb-5">
+              <a href="#" class="text-decoration-none" onclick="showreservation(2)">
+                <div class="link-primary text-primary">
+                  <i class="bi bi-arrow-left"></i>
+                  <span>Back</span>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none" onclick="showreservation(4)">
+                <div class="link-primary text-primary">
+                  <span>Next</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+            <!-- start time  -->
+            <div class="d-flex justify-content-center">
+              <div class="timepicker">
+                <div class="top">
+                  <span class="h">10</span>:<span class="m">15</span>
+                </div>
+                <div class="circle">
+                </div>
+                <div class="actions">
+                  <div class="action cancel">Cancels</div>
+                  <div class="action ok">OK</div>
+                </div>
+              </div>
+            </div>
+            <!-- end time  -->
+          </div>
+          <div id="reservation-4" style="display: none;">
+            <!-- reservation 4 content -->
+            <div class="d-flex justify-content-between mb-5">
+              <a href="#" class="text-decoration-none" onclick="showreservation(3)">
+                <div class="link-primary text-primary">
+                  <i class="bi bi-arrow-left"></i>
+                  <span>Back</span>
+                </div>
+              </a>
+              <a href="#" class="text-decoration-none" onclick="showreservation(5)">
+                <div class="link-primary text-primary">
+                  <span>Next</span>
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+              </a>
+            </div>
+            <!-- start information  -->
+            <div class="row d-flex align-items-center">
+              <div class="col-lg-6">
+                <div class="card border-0  rounded-0">
+                  <div class="card-body">
+                    <h5 class="text-secondary mt-3 fw-semibold">Personal information</h5>
+                    <form action="" class="d-flex flex-column align-items-center">
+                      <div class="col-lg-12 col-12 mt-3">
+                        <label for="" class="text-secondary fw-500">Full Name</label>
+                        <input type="text" class="form-control border-dark" name="" placeholder="" id="">
+                      </div>
+                      <div class="col-lg-12 col-12 mt-3">
+                        <label for="" class="text-secondary fw-500">Age</label>
+                        <input type="text" class="form-control border-dark" name="" placeholder="" id="">
+                      </div>
+                      <div class="col-lg-12 col-12 mt-3">
+                        <label for="" class="text-secondary fw-500">Phone number</label>
+                        <input type="tel" name="phone" id="phone" class="form-control rounded-2 border-dark" placeholder="Number">
+                    </div>
+                    <div class="col-lg-12 col-12 mt-3">
+                      <label for="" class="text-secondary fw-500">Email</label>
+                      <input type="email" class="form-control border-dark" name="" placeholder="" id="">
+                    </div>
+                      
+                      <div class="mt-4 col-12">
+                        <a href="" class="btn btn-primary rounded-3 btn-max col-sm-12 col-12 px-lg-9 px-8 fw-500 shadow"><span>Submit Reservation</span> </a>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-5 mt-lg-0">
+                <img src="images/https___lottiefiles.com_animations_tea-drinking-WJemNiLyVH.gif" alt="" class="img-fluid">
+              </div>
+            </div>
+            <!-- end information  -->
+          </div>
+          <div id="reservation-5" style="display: none;">
+            <!-- reservation 5 content -->
+            <a href="#" class="text-decoration-none" onclick="showreservation(4)">
+              <div class="link-primary text-primary">
+                <i class="bi bi-arrow-left"></i>
+                <span>Back</span>
+              </div>
+            </a>
+              <!-- start section one  -->
+          <div class="row mt-5 d-flex align-items-center">
+            <div class="col-md-4">
+              <div class="ratio ratio-4x3">
+                <img src="images/Frame 144.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-8 mt-3 mt-md-0">
+              <p class="text-secondary">One on One</p>
+              <h3 class="text-secondary fw-semibold">Free consultation</h3>
+              <div class="d-flex align-items-center">
+                <i class="bi bi-clock text-primary"></i>
+                <span class="mx-2 text-primary">Sun-wed</span>
+              </div>
+            </div>
+          </div>
+        <!-- end section one  -->
+        <div class="col-lg-12 d-flex align-items-center justify-content-between flex-column flex-lg-row  mt-5 mb-5">
+          <!-- start col-lg-7  -->
+          <div class="col-lg-7 col-10">
+            <div class="col-lg-12">
+              <h5 class="text-secondary">Choose Session type</h5>
+              <div class="d-flex">
+                <div class="form-check">
+                  <input class="form-check-input fs-5" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label mt-1" for="flexRadioDefault1">
+                    Online
+                  </label>
+                </div>
+                <div class="form-check mx-4">
+                  <input class="form-check-input fs-5" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label mt-1" for="flexRadioDefault2">
+                    Offline
+                  </label>
+                </div>
+              </div>
+            </div>
+            <form action="" class="mt-4">
+              <div class="col-lg-6">
+                <label for="" class="fw-semibold">Branch</label>
+                <select name="branch" class="form-select rounded-3 border-dark">
+                    <option value="" disabled selected>Select a branch</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-6">
+                <label for="" class="fw-semibold">Day</label>
+                <select name="" class="form-select rounded-3 border-dark">
+                    <option value="" disabled selected>Select a Day</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                </select>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <label for="" class="fw-semibold">Time</label>
+              <select name="Time" class="form-select rounded-3 border-dark">
+                  <option value="" disabled selected>Select a Time</option>
+                  <option value="option1">Option 1</option>
+                  <option value="option2">Option 2</option>
+              </select>
+          </div>          
+            </div>
+            
+            <div class="mt-5">
+              <h5 class="text-secondary">Choose Payment method</h5>
+              <div class="row">
+                <label class="col-2 border mx-1 d-flex justify-content-center align-items-center col-item rounded-2 border-light">
+                  <input type="radio" name="payment_method" onclick="handleClick(this)">
+                  <img src="images/Frame 1000003555.png" alt="" onclick="handleClick(this)">
+                </label>
+              
+                <label class="col-2 border mx-1 d-flex justify-content-center align-items-center col-item rounded-2 border-light">
+                  <input type="radio" name="payment_method" onclick="handleClick(this)">
+                  <img src="images/ApplePay.png"  class="mx-1" alt="" onclick="handleClick(this)">
+                </label>
+              
+                <label class="col-2 border mx-1 d-flex justify-content-center align-items-center col-item rounded-2 border-light">
+                  <input type="radio" name="payment_method" onclick="handleClick(this)">
+                  <img src="images/visa3.png" class="mx-0" alt="" onclick="handleClick(this)">
+                </label>
+              
+                <label class="col-2 border mx-1 d-flex justify-content-center align-items-center col-item rounded-2 border-light">
+                  <input type="radio" name="payment_method" onclick="handleClick(this)">
+                  <img src="images/visa4.png" alt="" onclick="handleClick(this)">
+                </label>
+              
+                <label class="col-2 border mx-1 d-flex justify-content-center align-items-center col-item rounded-2 border-light">
+                  <input type="radio" name="payment_method" onclick="handleClick(this)">
+                  <span class="fw-semibold mx-1"  onclick="handleClick(this)">Cash</span>
+                </label>
+              </div>
+              <div class="form-check mt-4">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  I agree to the <a href="" class="text-decoration-none">Privacy Policy</a> 
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  I agree to the <a href="" class="text-decoration-none">Terms & Conditions</a>
+                </label>
+              </div>
+
+            </div>     
+            </form> 
+          </div>
+          <!-- start col-lg-4 -->
+          <div class="col-lg-4 col-10 mt-5 mt-lg-0">
+            <div class="card rounded-0 shadow border-0">
+              <div class="card-body">
+                <h5 class="card-title mt-3 text-secondary fw-bold">Payment details</h5>
+                <div class="card-body d-flex flex-column">
+                  <form action="">
+                    <div class="d-flex justify-content-between">
+                      <h6 class="text-order col-6"> Subtotal </h6>
+                      <div class="d-flex justify-content-end align-items-center">
+                        <div class="col-6">
+                          <input type="text" class="form-control  fw-semibold border-0 bg-transparent d-flex justify-content-end" value="123456" readonly>
+                        </div>
+                          <span class="text-order"> BHD</span>
+                        </div>
+                    </div>
+      
+                    <div class="d-flex justify-content-between">
+                      <h6 class="text-danger col-6">Discount</h6> 
+                      <div class="d-flex justify-content-end align-items-center">
+                        <div class="col-6">
+                          <input type="text" class="form-control  fw-semibold border-0 bg-transparent d-flex justify-content-end" value="-42" readonly>
+                        </div>
+                          <span class="text-order"> BHD</span>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <h6 class="text-danger col-6">Vat (10%)</h6> 
+                      <div class="d-flex justify-content-end align-items-center">
+                        <div class="col-6">
+                          <input type="text" class="form-control  fw-semibold border-0 bg-transparent d-flex justify-content-end" value="-2" readonly>
+                        </div>
+                          <span class="text-order"> BHD</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                      <h6 class="text-danger col-6">Total </h6>
+                      <div class="d-flex justify-content-end align-items-center">
+                        <div class="col-6">
+                          <input type="text" class="form-control  fw-semibold border-0 bg-transparent d-flex justify-content-end" value="424445" readonly>
+                        </div>
+                          <span class="text-order"> BHD</span>
+                        </div>
+                    </div>
+      
+                    <hr class="text-danger mb-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <h5 class="text-secondary fw-bold col-6">Net Total</h5>
+                      <div class="d-flex justify-content-end align-items-center">
+                        <div class="col-6">
+                          <input type="text" style="font-size: 20px;" class="form-control  fw-semibold border-0 bg-transparent d-flex justify-content-end h4" value="283" readonly>
+                        </div>
+                          <span class="text-order fw-bold text-uppercase h5"> BHD</span>
+                        </div>
+                    </div>
+                  </form>
+              
+                
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+
+      </div>
+      <div class="text-center mt-5">
+        <form action="">
+          <button class="btn btn-primary text-white shadow rounded-2 col-lg-6 col-12 fw-semibold letter-spacing" type="submit"> <span> Check-out</span> </button>
+        </form>
+      </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Start Footer  -->
+<script>
+  MainFooter();
+</script>
+<!-- End Footer  -->
+
+
+<!--====== BACK TO TP PART START ======-->
+<button
+type="button"
+class="btn-back-to-top btn btn-primary-two text-white rounded-circle py-2 px-2"
+>
+<i class="bi bi-chevron-double-up"></i></button>
+<a href="https://wa.me/+97334479384" class="whats-app" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Whatsapp">
+  <i class="bi bi-whatsapp my-float"></i>
+</a>  
+<!--====== BACK TO TP PART ENDS ======-->
+
+<!-- Start Sidebar  -->
+    <script>
+      includeSidebar();
+    </script>
+<!-- End Sidebar  -->
+
+    <!-- JS Files -->
+    <!-- animation library js file -->
+    <script src="Assets/aos/aos.js"></script>
+    <!-- bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main js file -->
+    <script src="js/script.js"></script>  
+    <script src="js/input.js"></script> 
+    <script src="js/minify.mjs"></script>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./dist/calendar-gc.min.js"></script> 
+    <script>
+      function showreservation(reservationNumber) {
+        var reservationIds = ["reservation-1", "reservation-2", "reservation-3", "reservation-4", "reservation-5"];
+        for (var i = 0; i < reservationIds.length; i++) {
+          document.getElementById(reservationIds[i]).style.display = 'none';
+        }
+        document.getElementById('reservation-' + reservationNumber).style.display = 'block';
+      }
+    </script>
+    <script>
+      $(function () {
+        var calendar = $("#calendar").calendarGC({
+          dayBegin: 0,
+          prevIcon: '<i class="bi bi-chevron-right"></i>',
+          nextIcon: '<i class="bi bi-chevron-left"></i>',
+          onPrevMonth: function (e) {
+            console.log("prev");
+            console.log(e);
+          },
+          onNextMonth: function (e) {
+            console.log("next");
+            console.log(e);
+          },
+          events: getHoliday(),
+          onclickDate: function (e, data) {
+            console.log(e, data);
+          }
+        });
+    
+        function getHoliday() {
+          var d = new Date();
+          var totalDay = new Date(d.getFullYear(), d.getMonth() + 1, 0).getDate();
+          var events = [];
+    
+          for (var i = 1; i <= totalDay; i++) {
+            var newDate = new Date(d.getFullYear(), d.getMonth(), i);
+            var imageUrl = "";
+    
+            if (newDate.getDay() === 6) {   //if Saturday
+              imageUrl = "images/Frame5.svg";
+              events.push({
+                date: newDate,
+                eventName: "Saturday free",
+                className: "badge bg-danger",
+                onclick(e, data) {
+                  console.log(data);
+                },
+                dateColor: "red",
+                imageUrl: imageUrl
+              });
+            }
+          }
+          return events;
+        }
+    
+        // Custom rendering logic to append images
+        calendar.find(".day").each(function () {
+          var dateElement = $(this);
+          var date = dateElement.data("date");
+          var events = calendar.data("events");
+    
+          for (var i = 0; i < events.length; i++) {
+            if (events[i].date.getTime() === date.getTime() && events[i].imageUrl) {
+              // Append image to the specific date
+              dateElement.append('<img src="' + events[i].imageUrl + '" alt="Event Image">');
+            }
+          }
+        });
+      });
+    </script>
+    <script>
+      function timepicker(){
+  function createCircleOfDivs(num, radius, offsetX, offsetY, className, add, teilbar) {
+     var x, y;
+     for (var n = 0; n < num; n++) {
+       x = radius * Math.cos(n / num * 2 * Math.PI);
+       y = radius * Math.sin(n / num * 2 * Math.PI);
+       var div = document.createElement("div");
+       div.className = className;
+       if(teilbar == 1){
+         if(n+3 > 12){
+          div.textContent = n+3-12+add;
+         }else{
+          div.textContent = n+3+add; 
+         }
+       }else{
+
+         if(n % teilbar == 0){
+           if(n+15 >= 60){
+             div.setAttribute("data-value", n+15-60);
+            div.textContent = n+15-60+add;
+           }else{
+            div.setAttribute("data-value", n+15);
+            div.textContent = n+15+add; 
+           }
+         }else{
+           if(n+15 >= 60){
+             div.setAttribute("data-value", n+15-60);
+            div.textContent = "⋅";
+           }else{
+            div.setAttribute("data-value", n+15);
+            div.textContent = "\u00B7"; 
+           }
+         }
+       }
+
+       div.style.left = (x + offsetX) + "px";
+       div.style.top = (y + offsetY) + "px";
+       $(".timepicker .circle")[0].appendChild(div);
+     }
+   }
+    var currentTime = new Date();
+  function selectHours(){
+    $(".timepicker .circle").html("");
+    createCircleOfDivs(12, 101, 105, 105, "hour",0,1);
+    createCircleOfDivs(12, 64, 110, 110, "hour2",12,1);
+    $(".timepicker .circle").append('<div class="mid"></div>');
+    $(".timepicker .top .active").removeClass("active");
+    $(".timepicker .top .h").addClass("active");
+    $(".hour, .hour2").on("mouseup", function(){
+      $(".timepicker .top .h").text(  ($(this).text().length > 1 ) ?  $(this).text() : "0"+$(this).text() );
+      selectMinutes();
+  }); 
+    
+  }
+  function selectMinutes(){
+    $(".timepicker .circle").html("");
+    $(".timepicker .top .active").removeClass("active");
+    $(".timepicker .top .m").addClass("active");
+    createCircleOfDivs(60, 101, 115, 115, "min",0,5);
+    $(".timepicker .circle .min").on("mouseup", function(){
+        $(".timepicker .top .m").text(  ($(this).attr("data-value").length > 1) ? $(this).attr("data-value") : "0"+$(this).attr("data-value")  );
+    });
+  }
+  selectHours();
+  $(".timepicker .top .h").text(currentTime.getHours());
+  $(".timepicker .top .m").text(currentTime.getMinutes());
+  
+  $(".timepicker .top span").click(function(){
+    if(!$(this).hasClass("active")){
+      if($(this).hasClass("h")){
+        selectHours();
+      }else{
+        selectMinutes();
+      }
+    }
+  });
+  $(".timepicker .action.ok").click(function(){
+     var selectedTime = $(".timepicker .top .h").text()+":"+$(".timepicker .top .m").text();
+    alert(selectedTime);
+  });
+  $(".timepicker .action.cancel").click(function(){
+    //Cancel
+  });
+  
+}
+timepicker();
+    </script>
+  
+  </body>
+</html>
